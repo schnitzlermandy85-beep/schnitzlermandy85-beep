@@ -1,16 +1,11 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Wang Hao — AI applications, deep learning and learning tools" />
-</p>
 
-<div align="center">
-
-# 王皓 · Wang Hao
+# 沐山雨薇
 
 **南京大学 · 智能科学与技术**
 
 AI  · 深度学习 · 世界模型 · 软件开发 · agent开发
 
-BUILD WORLD IN CODINg
+BUILD WORLD IN CODING
 
 [关于我](#关于我) · [精选项目](#精选项目) · [实验与证据](#实验与证据) · [技术方向](#技术方向) · [学习记录](#学习记录)
 
