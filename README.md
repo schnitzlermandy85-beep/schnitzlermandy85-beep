@@ -7,7 +7,7 @@ AI  · 深度学习 · 世界模型 · 软件开发 · agent开发
 
 BUILD WORLD IN CODING
 
-[个人网站 · 文章与 Plog](https://mushan-yuwei.schnitzlermandy85.chatgpt.site) · [关于我](#关于我) · [精选项目](#精选项目) · [实验与证据](#实验与证据) · [技术方向](#技术方向) · [学习记录](#学习记录)
+[个人网站 · 文章与 Plog](https://schnitzlermandy85-beep.github.io) · [关于我](#关于我) · [精选项目](#精选项目) · [实验与证据](#实验与证据) · [技术方向](#技术方向) · [学习记录](#学习记录)
 
 </div>
 
