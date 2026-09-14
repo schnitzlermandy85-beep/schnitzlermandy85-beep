@@ -80,9 +80,12 @@ Neural Beam 的平均扩展节点较穷举减少约 **87.1%**，同时解题率�
 
 ## 3D Contribution Calendar
 
-![3D GitHub Contribution Calendar](./assets/contribution-calendar.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
+  <img src="./profile-3d-contrib/profile-green.svg" alt="沐山雨薇的 3D GitHub 贡献日历" width="100%" />
+</picture>
 
-<sub>基于 GitHub 贡献日历生成，柱高按贡献次数的平方根缩放。当前为 2026-09-14 数据快照。</sub>
+<sub>使用 [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) 原版渲染，自动适配深浅背景。数据快照：2026-09-14。</sub>
 
 ## 学习记录
 
