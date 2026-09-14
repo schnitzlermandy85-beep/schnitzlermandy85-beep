@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Wang Hao — AI, experiments and applications</title>
+  <desc id="desc">A midnight blue banner with an abstract connected graph, introducing Wang Hao's project collection.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#172d4b"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+  <path d="M0 338H1200" stroke="url(#line)" stroke-width="4"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="58" y="65" font-size="13" font-weight="600" letter-spacing="4" fill="#67e8f9">LEARN / EXPERIMENT / BUILD</text>
+    <text x="54" y="155" font-size="76" font-weight="700" letter-spacing="-3" fill="#f8fafc">Wang Hao<tspan fill="#67e8f9">.</tspan></text>
+    <text x="58" y="204" font-size="23" fill="#cbd5e1">Exploring intelligence. Building useful things.</text>
+    <rect x="58" y="246" width="142" height="34" rx="17" fill="#183e52"/><text x="129" y="268" text-anchor="middle" font-size="12" fill="#a5f3fc">AI APPLICATIONS</text>
+    <rect x="212" y="246" width="154" height="34" rx="17" fill="#273650"/><text x="289" y="268" text-anchor="middle" font-size="12" fill="#c7d2fe">DEEP LEARNING</text>
+    <rect x="378" y="246" width="142" height="34" rx="17" fill="#273650"/><text x="449" y="268" text-anchor="middle" font-size="12" fill="#c7d2fe">LEARNING TOOLS</text>
+  </g>
+  <g fill="none" stroke="#7dd3fc">
+    <circle cx="991" cy="167" r="115" stroke-opacity=".13"/><circle cx="991" cy="167" r="84" stroke-opacity=".18"/>
+    <path d="M885 223L940 97L1088 139L1028 263L885 223L1088 139M940 97L1028 263" stroke-opacity=".5" stroke-width="1.5"/>
+  </g>
+  <g fill="#0e2036" stroke="url(#line)" stroke-width="2"><circle cx="885" cy="223" r="12"/><circle cx="940" cy="97" r="12"/><circle cx="1088" cy="139" r="12"/><circle cx="1028" cy="263" r="12"/></g>
+  <circle cx="991" cy="167" r="8" fill="#67e8f9"/>
+</svg>

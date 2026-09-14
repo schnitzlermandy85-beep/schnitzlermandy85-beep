@@ -1,24 +1,115 @@
-# Wang Hao
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Wang Hao — AI applications, deep learning and learning tools" />
+</p>
 
-围绕 AI 学习工具、桌面应用与深度学习实验，记录从问题分析到实现和验证的过程。
+<div align="center">
+
+# 王皓 · Wang Hao
+
+**南京大学 · 智能科学与技术**
+
+AI 应用 · 深度学习实验 · 学习工具 · 桌面开发
+
+把想法写成代码，把实验做成能解释的结果。
+
+[关于我](#关于我) · [精选项目](#精选项目) · [实验与证据](#实验与证据) · [技术方向](#技术方向) · [学习记录](#学习记录)
+
+</div>
+
+---
+
+## 关于我
+
+你好，我是王皓，来自南京大学智能科学与技术专业。我通过课程实践、算法实验和应用开发学习 AI，也尝试把学习过程中遇到的问题做成工具。
+
+- **研究与实验**：探索神经符号推理、组合程序搜索与优化器对比，关注实验设置、消融和可复现结果。
+- **应用与工具**：构建诊断式学习助手、金融研究桌面端，让模型和代码服务具体场景。
+- **知识积累**：持续整理计算机视觉与深度学习笔记，把概念、公式和实现联系起来。
 
 ## 精选项目
 
-| 项目 | 解决的问题与实现 | 阅读入口 |
-| --- | --- | --- |
-| **Neural-Guided Visual Reasoning** | 用 CNN 引导组合程序搜索，并通过解释器精确验证；包含五 seed 实验、消融与 ARC 迁移分析。 | [项目与实验结果](https://github.com/schnitzlermandy85-beep/Neural-Guided-Compositional-Program-Synthesis-for-Abstract-Visual-Reasoning) |
-| **Finance Desk** | 基于 Electron 的金融数据研究桌面端，整合查询、图表、模拟账户与历史练习。 | [功能与架构](https://github.com/schnitzlermandy85-beep/finance-desk) |
-| **Course-Grounded Tutor** | 面向大学 STEM 与 AI/CS 的导师 Skill，以缺口诊断、小步教学和理解检查组织学习。 | [使用示例与设计](https://github.com/schnitzlermandy85-beep/course-grounded-tutor) |
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 · Course-Grounded Tutor</h3>
+<p><strong>先诊断知识缺口，再推进下一步学习。</strong></p>
+<p>面向大学 STEM 与 AI/CS 的导师 Skill，结合课程资料、小步教学、理解检查和可复制的学习状态卡组织自学。</p>
+<p><code>Agent Skill</code> <code>Python</code> <code>Education</code></p>
+<p><a href="https://github.com/schnitzlermandy85-beep/course-grounded-tutor">查看项目 →</a> · <a href="https://github.com/schnitzlermandy85-beep/course-grounded-tutor/tree/main/examples">教学示例</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 · Finance Desk</h3>
+<p><strong>从数据查询到本地模拟实验的桌面工作台。</strong></p>
+<p>整合行情、财报与图表，提供人工账户、均线策略回测与历史练习；通过 Electron 主进程管理凭据与接口调用。</p>
+<p><code>Electron</code> <code>JavaScript</code> <code>Data Visualization</code></p>
+<p><a href="https://github.com/schnitzlermandy85-beep/finance-desk">查看项目 →</a> · <a href="https://github.com/schnitzlermandy85-beep/finance-desk/blob/main/docs/ARCHITECTURE.md">架构设计</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 · Neural-Guided Visual Reasoning</h3>
+<p><strong>用神经网络引导搜索，用程序执行验证答案。</strong></p>
+<p>CNN 预测下一步 DSL 操作，Beam Search 组合候选程序，解释器做精确验证。包含多 seed 评估、消融与 ARC 迁移分析。</p>
+<p><code>PyTorch</code> <code>Program Synthesis</code> <code>Beam Search</code></p>
+<p><a href="https://github.com/schnitzlermandy85-beep/Neural-Guided-Compositional-Program-Synthesis-for-Abstract-Visual-Reasoning">查看项目 →</a> · <a href="https://github.com/schnitzlermandy85-beep/Neural-Guided-Compositional-Program-Synthesis-for-Abstract-Visual-Reasoning/blob/main/PAPER_DRAFT_EN.md">研究草稿</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>04 · CIFAR Optimizer Lab</h3>
+<p><strong>从参数更新出发理解优化器的差异。</strong></p>
+<p>在 CIFAR-10 / CIFAR-100 上对比手写 SGD、AdamW 与 Muon-AdamW，记录训练曲线、跨 seed 统计、时间与显存。</p>
+<p><code>PyTorch</code> <code>Optimization</code> <code>CIFAR</code></p>
+<p><a href="https://github.com/schnitzlermandy85-beep/CNN-of-Matrix-Optimization-Algorithm">查看项目 →</a> · <a href="https://github.com/schnitzlermandy85-beep/CNN-of-Matrix-Optimization-Algorithm/blob/main/cifar_muon_compare.py">核心实现</a></p>
+</td>
+</tr>
+</table>
 
-## 实验与学习积累
+## 实验与证据
 
-- [CIFAR Optimizer Lab](https://github.com/schnitzlermandy85-beep/CNN-of-Matrix-Optimization-Algorithm)：手写 SGD、AdamW 与 Muon-AdamW，比较训练指标、时间和显存。
-- [CS231n 中文学习笔记](https://github.com/schnitzlermandy85-beep/cs231n-notes)：从分类、反向传播到 CNN、Transformer 与视觉任务，附 NumPy 代码实践。
-- [提示词工程课程作业](https://github.com/schnitzlermandy85-beep/Introduction-to-Artificial-Intelligence-Prompt-Engineering)：课程实践仓库，目前仅有说明，案例与报告待补充。
+在神经引导视觉推理项目中，我关注搜索效率与解题能力之间的取舍。仓库中的合成任务五 seed 结果为：
 
-## 推荐阅读顺序
+| 方法 | 平均解题率 | 平均扩展节点 |
+| :--- | ---: | ---: |
+| Greedy generation | 26.96% | 2.36 |
+| **Neural Beam Search** | **69.04%** | **6.74** |
+| Exhaustive Search | 100.00% | 52.34 |
 
-- 了解应用实现：Finance Desk → Course-Grounded Tutor。
-- 了解算法实验：Neural-Guided Visual Reasoning → CIFAR Optimizer Lab。
-- 了解知识积累：CS231n 中文学习笔记。
+Neural Beam 的平均扩展节点较穷举减少约 **87.1%**，同时解题率低于穷举。以上结果限定于当前合成任务、DSL 与搜索设置，不代表通用 ARC 解题能力。
 
+[查看原始汇总 CSV](https://github.com/schnitzlermandy85-beep/Neural-Guided-Compositional-Program-Synthesis-for-Abstract-Visual-Reasoning/blob/main/runs/v2_aggregate/method_comparison_aggregate.csv) · [查看实验设计与局限](https://github.com/schnitzlermandy85-beep/Neural-Guided-Compositional-Program-Synthesis-for-Abstract-Visual-Reasoning#5-正式实验结果)
+
+## 技术方向
+
+| 方向 | 项目中使用的技术与方法 |
+| :--- | :--- |
+| 深度学习与实验 | Python · PyTorch · NumPy · Matplotlib · 多 seed 评估 |
+| 神经符号推理 | CNN · DSL · Beam Search · 精确执行验证 |
+| 应用工程 | JavaScript · Electron · Node.js · API 集成 |
+| AI 学习工具 | Agent Skills · 课程资料提取 · 诊断式教学 · 状态卡 |
+| 文档与表达 | Markdown · 技术笔记 · 架构图 · 实验报告 |
+
+## 学习记录
+
+### [CS231n 中文学习笔记](https://github.com/schnitzlermandy85-beep/cs231n-notes)
+
+从图像分类、反向传播与优化，走到 CNN、RNN、Attention 和 Transformer；配合 NumPy 两层神经网络实践，将理论串成可回看的学习路线。
+
+[笔记目录](https://github.com/schnitzlermandy85-beep/cs231n-notes#笔记目录) · [Attention 与 Transformer](https://github.com/schnitzlermandy85-beep/cs231n-notes/blob/main/Attention%20与%20Transformer.md) · [NumPy 代码实践](https://github.com/schnitzlermandy85-beep/cs231n-notes/blob/main/必会代码部分.md)
+
+<details>
+<summary>其他课程实践</summary>
+
+[提示词工程课程作业](https://github.com/schnitzlermandy85-beep/Introduction-to-Artificial-Intelligence-Prompt-Engineering)：目前为项目说明，具体案例与实验报告待补充。
+
+</details>
+
+---
+
+<div align="center">
+
+**Learn with curiosity. Build with evidence.**
+
+欢迎通过对应项目的 Issues 交流使用反馈、实现细节与改进建议。
+
+[邮件联系](mailto:schnitzlermandy85@gmail.com) · [浏览公开仓库](https://github.com/schnitzlermandy85-beep?tab=repositories&type=public)
+
+</div>
