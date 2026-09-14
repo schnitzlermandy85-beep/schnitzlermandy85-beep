@@ -78,6 +78,12 @@ Neural Beam 的平均扩展节点较穷举减少约 **87.1%**，同时解题率�
 | AI 学习工具 | Agent Skills · 课程资料提取 · 诊断式教学 · 状态卡 |
 | 文档与表达 | Markdown · 技术笔记 · 架构图 · 实验报告 |
 
+## 3D Contribution Calendar
+
+![3D GitHub Contribution Calendar](./assets/contribution-calendar.svg)
+
+<sub>基于 GitHub 贡献日历生成，柱高按贡献次数的平方根缩放。当前为 2026-09-14 数据快照。</sub>
+
 ## 学习记录
 
 ### [CS231n 中文学习笔记](https://github.com/schnitzlermandy85-beep/cs231n-notes)
